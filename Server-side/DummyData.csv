@@ -1,0 +1,11 @@
+account_number,first_name,last_name,age,gender,phone_number,address,bank_account_type,date_of_account_opening,branch_code,password_hash
+2.34568E+11,John,Smith,32,Male,(323) 555-1234,"123 Maple St, Los Angeles, CA 90001",Checking,15-05-2021,LA123,$2a$10$b3bknTkANntUc3QPEtBFDOUdREfhPzql04biJNBzMQuk/7eLlLhru
+3.45679E+11,Emily,Johnson,28,Female,(213) 555-2345,"456 Oak St, San Francisco, CA 94102",Savings,10-03-2020,SF234,$2a$10$jObix/Yort23IVf7kc6K8.GLS4lfixrMLmfjUBxuytueYPPzR85Wa
+4.56789E+11,Michael,Brown,40,Male,(310) 555-3456,"789 Pine St, San Diego, CA 92103",Business,20-11-2019,SD345,$2a$10$t9Q6.5Ru2wW34pvd6o.TGuCZXu15ZscTy7EsT1OI1W7jsVZcfK1VC
+5.67891E+11,Sarah,Davis,35,Female,(415) 555-4567,"321 Cedar St, Sacramento, CA 94203",Checking,22-07-2018,SAC456,$2a$10$83S5Xr8WbvngMfYZD6XiN.dyRw.KFMM6wgClSDUxmciwFKnPEK7oO
+6.78912E+11,William,Martinez,45,Male,(619) 555-5678,"654 Elm St, Fresno, CA 93704",Savings,18-09-2017,FRS567,$2a$10$raWFwM.pYAqZ6ro1egFHWuSndADOHHLiKo9Xc.oCnQH/J3EwWdrui
+7.89123E+11,Olivia,Garcia,29,Female,(818) 555-6789,"987 Birch St, Long Beach, CA 90805",Business,12-02-2022,LB678,$2a$10$Vqgjn8xqUnGhj7Mmznt8Ce6d1EYmnCqxpWzKLZqg4SFlhV787Wdx6
+8.91235E+11,James,Wilson,38,Male,(510) 555-7890,"135 Cypress St, Oakland, CA 94607",Checking,28-04-2016,OAK789,$2a$10$xhFJQQMh1Dls01TGYnlyYOzK7WmYL29/Vrc6A37lTRsD1ePRC7TsW
+9.12346E+11,Sophia,Anderson,27,Female,(714) 555-8901,"246 Palm St, Anaheim, CA 92801",Savings,05-01-2023,ANA890,$2a$10$5GbIJPjPhK/qDwyI.dO35.EzerDhWY3oEgISrs6.DS2ZItnkBtjDi
+1.23457E+11,David,Thomas,42,Male,(909) 555-9012,"369 Redwood St, Riverside, CA 92503",Business,17-12-2015,RV901,$2a$10$LNK6kqrz8XeVl4uBAAnTPu1ntt8zHh.ZcxFgy8HGYbJeN1GQ38UDG
+2.34568E+11,Isabella,Lee,31,Female,(626) 555-0123,"753 Fir St, Pasadena, CA 91104",Checking,23-08-2021,PAS012,$2a$10$b7ICYLEQBcu64vmMnKs3IuzYDxvwoI/y3ZEWEtqU0MDn.ylQr7MM.
