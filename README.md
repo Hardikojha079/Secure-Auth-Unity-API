@@ -16,7 +16,7 @@ The user will need to make a few adjustments to the project to align it with the
 The server-side includes eight key files responsible for authentication, database communication, and token generation.<br>
 
 **File Structure:**<br>
-/API
+/API<br>
   |-- .env             // Environment variables for database connection and JWT secret.<br>
   |-- server.js                // Main entry point for starting the server.<br>
   |-- db.js                    // Database connection configuration.<br>
