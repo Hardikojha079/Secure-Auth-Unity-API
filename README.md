@@ -21,13 +21,13 @@ The server-side includes eight key files responsible for authentication, databas
   |-- server.js                // Main entry point for starting the server.<br>
   |-- db.js                    // Database connection configuration.<br>
   |-- /src<br>
-      &nbsp;&nbsp;&nbsp;|-- /BankDetails         // Directory containing all the backend logic related to authentication.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- auth.js          // Handles bcrypt password comparison and JWT token generation.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- controller.js    // Controller for processing incoming requests and sending appropriate responses.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- middleware.js    // Middleware to verify JWT tokens for protected routes.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- queries.js       // SQL queries for database interactions. Contains placeholders for schema and table name.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- config.js        // Configuration file for JWT and bcrypt setup.<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- generateHashes.js     // To generate new Hashed passwords if needed<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- /BankDetails         `Directory containing all the backend logic related to authentication.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- auth.js          `Handles bcrypt password comparison and JWT token generation.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- controller.js    `Controller for processing incoming requests and sending appropriate responses.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- middleware.js    `Middleware to verify JWT tokens for protected routes.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- queries.js       `SQL queries for database interactions. Contains placeholders for schema and table name.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- config.js        `Configuration file for JWT and bcrypt setup.`<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- generateHashes.js     `To generate new Hashed passwords if needed.`<br>
           
 #Note: hash codes can be generated and furthermore updated in the postgres database by using below mentioned query:<br>
 `UPDATE <Schema.TableName> 
