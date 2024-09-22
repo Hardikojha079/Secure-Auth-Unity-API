@@ -28,7 +28,7 @@ const checkCustomerExists = async (account_number) => {
 const GetLoginId = async (req, res) => {
   const { account_number, password } = req.body;
   try {
-    const result = await pool.query('SELECT * FROM public.dummybankdata WHERE account_number=$1', [account_number]);
+    const result = await pool.query(queries.GetLoginId, [account_number]);
     if (result.rows.length === 0) {
       return res.status(404).json({ success: false, message: 'User not found' });
   }
